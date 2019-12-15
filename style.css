@@ -1,0 +1,125 @@
+body {
+margin: 0;
+}
+h1{
+text-align: center;
+margin-top: 10px;
+font-style: cursive;
+font-family: Snell Roundhand;
+}
+h2{
+text-align: right;
+font-size: 20px;
+margin-top: -2%;
+font-style: cursive;
+font-family: Snell Roundhand;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+background-size: 100%;
+font-style: cursive;
+font-family: Snell Roundhand;
+}
+li {
+float: left;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 87px;
+text-decoration: none;
+}
+li a:hover {
+background-color: #111;
+}
+p{
+font-family: dinregular;
+}
+.navbar{
+position: fixed;
+background-color: white;
+left: 0;
+right: 0;
+}
+.image5{
+display: inline-block;
+margin-left: 40px;
+margin-top: 200px;
+}
+.paragraphe{
+display: block;
+font-family: Snell Roundhand;
+width: 400px;
+text-align: center;
+vertical-align: middle;
+position: absolute; ;
+margin-left: 875px;
+margin-top: -325px;
+z-index: -1;
+}
+.image1{
+margin-left: 742px;
+display: inline-block;
+}
+.aimeleon{
+font-family: Snell Roundhand;
+display: block;
+width: 400px;
+text-align: center;
+vertical-align: middle;
+position: absolute;
+margin-top: -250px;
+margin-left: 150px;
+z-index: -1;
+font-family: dinregular;
+}
+.videok{
+
+margin: 20px 0 20px 15px;
+width: 80%;
+text-align: center;
+text-align: center;
+width:480px;
+z-index: -1;
+}
+.defile{
+display: block;
+position: relative;
+width: 100%;
+min-height: 40%;
+overflow: hidden;
+background-size: 100%;
+text-align: center;
+background-color: #333;
+border: 6px;
+box-sizing: border-box;
+color:white;
+right: 0;
+left: 0;
+bottom: 1;
+}
+.defile p {
+font-family: Snell Roundhand;
+font-size: 17px;
+}
+.button{
+background-color: grey;
+color: white;
+text-decoration: none;
+padding: 2px;
+border: 2px solid beige;
+border-radius: 5px;
+border-style: groove;
+}
+.button:hover{
+color: grey;
+background-color: white;
+}
+/*------ Responsive -------*/
+@media (max-width: 960px)
+
